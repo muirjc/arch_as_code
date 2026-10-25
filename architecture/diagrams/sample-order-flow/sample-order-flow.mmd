@@ -3,5 +3,6 @@ flowchart TD
   check -->|Yes| ship[Ship order]
   check -->|No| backorder[Back-order]
   ship --> notify[Email customer]
+  backorder --> notifyDelay[Email delay notice]
   notify --> done([Done])
-  backorder --> done
+  notifyDelay --> done
