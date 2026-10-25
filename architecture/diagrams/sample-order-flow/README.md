@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Diagram type | Generic Flowchart |
-| Canvas version | 4 |
+| Canvas version | 5 |
 | Standard | Still Active 1792671292012 (version 78) |
 | Open in Canvas | [Sample Order Flow](http://localhost:5173/?diagramId=bd97bbce-12f5-44eb-aaba-f8b7f1c9fdca) |
 
@@ -20,6 +20,7 @@ flowchart TD
   backorder --> notifyDelay[Email delay notice]
   notify --> done([Done])
   notifyDelay --> done
+  order --> audit[Audit log]
 ```
 
 </details>
