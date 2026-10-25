@@ -5,7 +5,7 @@
 | | |
 |---|---|
 | Diagram type | Generic Flowchart |
-| Canvas version | 2 |
+| Canvas version | 3 |
 | Standard | Still Active 1792671292012 (version 78) |
 | Open in Canvas | [Sample Order Flow](http://localhost:5173/?diagramId=bd97bbce-12f5-44eb-aaba-f8b7f1c9fdca) |
 
@@ -16,7 +16,8 @@ flowchart TD
   order[Order received] --> check{In stock?}
   check -->|Yes| ship[Ship order]
   check -->|No| backorder[Back-order]
-  ship --> done([Done])
+  ship --> notify[Email customer]
+  notify --> done([Done])
   backorder --> done
 ```
 
