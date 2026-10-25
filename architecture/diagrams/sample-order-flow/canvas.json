@@ -5,9 +5,9 @@
   "name": "Sample Order Flow",
   "diagramType": "flowchart",
   "dslFamily": "flowchart",
-  "versionSequence": 3,
+  "versionSequence": 4,
   "source": "sample-order-flow.canvas.mmd",
-  "sourceSha256": "8cd1fdd8c6eedf165e041f41a2633a3ffb20426f02d55b5d1d8522855c60599b",
+  "sourceSha256": "b6a5c14e40f3cdc95e8ebbc0a03ea31231a38cee9ad5b0e3cd25d983276083d3",
   "portable": "sample-order-flow.mmd",
   "svg": "sample-order-flow.svg",
   "standard": {
