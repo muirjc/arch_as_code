@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "generatedBy": "Canvas",
+  "diagramId": "bd97bbce-12f5-44eb-aaba-f8b7f1c9fdca",
+  "name": "Sample Order Flow",
+  "diagramType": "flowchart",
+  "dslFamily": "flowchart",
+  "versionSequence": 2,
+  "source": "sample-order-flow.canvas.mmd",
+  "sourceSha256": "d932b89f2543cb5f8a48e5d69739ea50abdb14ab8697f114dd2d6f8e5eb42fa7",
+  "portable": "sample-order-flow.mmd",
+  "svg": "sample-order-flow.svg",
+  "standard": {
+    "path": ".canvas/standards/flowchart/v78.json",
+    "id": "30006ced-b417-4f62-bd80-b5bfdd9d8822",
+    "version": 78,
+    "name": "Still Active 1792671292012"
+  },
+  "canvasUrl": "http://localhost:5173/?diagramId=bd97bbce-12f5-44eb-aaba-f8b7f1c9fdca"
+}

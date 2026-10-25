@@ -1,0 +1,6 @@
+flowchart TD
+  order[Order received] --> check{In stock?}
+  check -->|Yes| ship[Ship order]
+  check -->|No| backorder[Back-order]
+  ship --> done([Done])
+  backorder --> done
