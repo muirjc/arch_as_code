@@ -1,0 +1,117 @@
+{
+  "id": "c0dbfaa3-744f-498b-ba12-50c3ab53fd3c",
+  "diagramTypeId": "c4-container",
+  "version": 1,
+  "name": "C4 Container (starter)",
+  "description": "Standard C4 element kinds and colors for a container diagram. Edit to tighten.",
+  "rules": {
+    "allowedShapeIds": [],
+    "mandatoryShapeIds": [],
+    "allowedIconLibraryRefs": [],
+    "colorPalette": [],
+    "guidance": "A C4 Container diagram zooms into one software system and shows its containers (applications, data stores, queues), the people who use them and the external systems they talk to. Label every relationship with what it does and how (e.g. \"Reads/writes [SQL]\").",
+    "containers": {
+      "allowed": true,
+      "allowedRoles": [
+        "enterprise-boundary",
+        "system-boundary",
+        "container-boundary",
+        "boundary"
+      ]
+    },
+    "elementKinds": [
+      {
+        "id": "person",
+        "label": "Person",
+        "match": {
+          "role": "person",
+          "external": false
+        },
+        "shapes": [
+          "person"
+        ],
+        "description": "A user of the system (Person).",
+        "approvedFills": [
+          "#08427b"
+        ]
+      },
+      {
+        "id": "external_person",
+        "label": "External Person",
+        "match": {
+          "role": "person",
+          "external": true
+        },
+        "shapes": [
+          "person"
+        ],
+        "description": "A person outside the organisation (Person_Ext).",
+        "approvedFills": [
+          "#686868"
+        ]
+      },
+      {
+        "id": "software_system",
+        "label": "Software System",
+        "match": {
+          "role": "system",
+          "external": false
+        },
+        "shapes": [],
+        "description": "A software system (System / SystemDb / SystemQueue).",
+        "approvedFills": [
+          "#1168bd"
+        ]
+      },
+      {
+        "id": "external_system",
+        "label": "External System",
+        "match": {
+          "role": "system",
+          "external": true
+        },
+        "shapes": [],
+        "description": "A system outside the scope (System_Ext and variants).",
+        "approvedFills": [
+          "#999999"
+        ]
+      },
+      {
+        "id": "container",
+        "label": "Container",
+        "match": {
+          "role": "container",
+          "external": false
+        },
+        "shapes": [],
+        "description": "An application or data store inside a system (Container / ContainerDb / ContainerQueue).",
+        "approvedFills": [
+          "#438dd5"
+        ]
+      },
+      {
+        "id": "external_container",
+        "label": "External Container",
+        "match": {
+          "role": "container",
+          "external": true
+        },
+        "shapes": [],
+        "description": "A container outside the scope (Container_Ext and variants).",
+        "approvedFills": [
+          "#b3b3b3"
+        ]
+      }
+    ],
+    "connectorRules": [
+      {
+        "id": "relationship",
+        "to": "*",
+        "from": "*",
+        "label": "Relationship",
+        "requireLabel": true
+      }
+    ],
+    "connectorPolicy": "any"
+  }
+}

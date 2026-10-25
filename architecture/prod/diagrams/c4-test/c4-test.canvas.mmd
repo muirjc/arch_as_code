@@ -1,0 +1,28 @@
+---
+canvas:
+  positions:
+    nmvo5ycbvdmewe9:
+      x: 101
+      y: 42
+    nmvo5ydcrbip5j6:
+      x: 517
+      y: 239
+    nmvo5ykn4nb6s69:
+      x: 513
+      y: 61
+  styles:
+    nmvo5ycbvdmewe9:
+      fillColor: "#08427b"
+    nmvo5ydcrbip5j6:
+      fillColor: "#686868"
+    nmvo5ykn4nb6s69:
+      fillColor: "#1168bd"
+  edgeStyles: {}
+  containers: {}
+---
+C4Container
+Person(nmvo5ycbvdmewe9, "Customer")
+Person_Ext(nmvo5ydcrbip5j6, "External Person")
+System(nmvo5ykn4nb6s69, "Software System")
+Rel(nmvo5ycbvdmewe9, nmvo5ykn4nb6s69, "To System")
+Rel(nmvo5ykn4nb6s69, nmvo5ydcrbip5j6, "To Customer")

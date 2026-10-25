@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "generatedBy": "Canvas",
+  "diagramId": "d7288197-d3af-4600-b52d-7b5aa6baa494",
+  "name": "C4 Test",
+  "diagramType": "c4-container",
+  "dslFamily": "c4",
+  "versionSequence": 4,
+  "source": "c4-test.canvas.mmd",
+  "sourceSha256": "6e6e4ae981a856bf5a29c7c82c56ae897a17936c33d161aa7a3801b5210683a2",
+  "portable": "c4-test.mmd",
+  "svg": "c4-test.svg",
+  "standard": {
+    "path": ".canvas/standards/c4-container/v1.json",
+    "id": "c0dbfaa3-744f-498b-ba12-50c3ab53fd3c",
+    "version": 1,
+    "name": "C4 Container (starter)"
+  },
+  "canvasUrl": "https://canvaswebsgsjwpx53dvpy.z19.web.core.windows.net/?diagramId=d7288197-d3af-4600-b52d-7b5aa6baa494"
+}
