@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "generatedBy": "Canvas",
+  "diagramId": "c6df3ab3-c884-460f-83cb-4cd5d125c9c7",
+  "name": "Value Chain",
+  "diagramType": "value-chain",
+  "dslFamily": "flowchart",
+  "versionSequence": 5,
+  "source": "value-chain.canvas.mmd",
+  "sourceSha256": "79fdf37a42b99dca19f7514979c6e5b2162b5d9dec8e56a40e6126ba8df38f9d",
+  "portable": "value-chain.mmd",
+  "svg": "value-chain.svg",
+  "standard": {
+    "path": ".canvas/standards/value-chain/v1.json",
+    "id": "ff3c81fc-d934-4b14-b944-f7a377fbf608",
+    "version": 1,
+    "name": "Value Chain (Porter)"
+  },
+  "canvasUrl": "https://canvaswebsgsjwpx53dvpy.z19.web.core.windows.net/?diagramId=c6df3ab3-c884-460f-83cb-4cd5d125c9c7"
+}
