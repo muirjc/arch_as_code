@@ -1,0 +1,95 @@
+{
+  "id": "ff3c81fc-d934-4b14-b944-f7a377fbf608",
+  "diagramTypeId": "value-chain",
+  "version": 1,
+  "name": "Value Chain (Porter)",
+  "description": "Primary activities in sequence feeding a single margin, with support activities alongside.",
+  "rules": {
+    "allowedShapeIds": [],
+    "mandatoryShapeIds": [],
+    "allowedIconLibraryRefs": [],
+    "colorPalette": [],
+    "guidance": "Porter's value chain: primary activities in sequence left to right (typically 5: inbound logistics, operations, outbound logistics, marketing & sales, service), the last one feeding the single Margin element. Support activities (typically 4: firm infrastructure, HR management, technology development, procurement) sit as bands above the primary chain and are not connected into it.",
+    "elementKinds": [
+      {
+        "id": "primary_activity",
+        "label": "Primary Activity",
+        "shapes": [
+          "asymmetric"
+        ],
+        "minCount": 1,
+        "description": "An activity that directly creates and delivers value: inbound logistics, operations, outbound logistics, marketing & sales, service. Chain them left to right in the order value flows.",
+        "approvedFills": [
+          "#dbeafe",
+          "#bfdbfe"
+        ],
+        "approvedStrokes": [
+          "#1d4ed8"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "support_activity",
+        "label": "Support Activity",
+        "shapes": [
+          "rectangle"
+        ],
+        "minCount": 1,
+        "description": "An activity that enables the primary activities across the whole chain: firm infrastructure, human resource management, technology development, procurement. Not connected into the primary flow.",
+        "approvedFills": [
+          "#fef3c7",
+          "#fde68a"
+        ],
+        "approvedStrokes": [
+          "#b45309"
+        ]
+      },
+      {
+        "id": "margin",
+        "label": "Margin",
+        "shapes": [
+          "hexagon"
+        ],
+        "maxCount": 1,
+        "minCount": 1,
+        "description": "The value captured: exactly one, at the end of the primary activity chain.",
+        "approvedFills": [
+          "#dcfce7"
+        ],
+        "approvedStrokes": [
+          "#15803d"
+        ]
+      }
+    ],
+    "connectorRules": [
+      {
+        "id": "flow",
+        "to": "primary_activity",
+        "from": "primary_activity",
+        "label": "Value flow",
+        "arrows": [
+          "target"
+        ],
+        "lineStyles": [
+          "solid"
+        ],
+        "maxPerSource": 1
+      },
+      {
+        "id": "to_margin",
+        "to": "margin",
+        "from": "primary_activity",
+        "label": "Delivers margin",
+        "arrows": [
+          "target"
+        ],
+        "lineStyles": [
+          "solid"
+        ],
+        "maxPerSource": 1
+      }
+    ],
+    "connectorPolicy": "listed-only",
+    "requireKnownKinds": true
+  }
+}
