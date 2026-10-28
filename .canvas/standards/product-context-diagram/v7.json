@@ -1,0 +1,141 @@
+{
+  "id": "f02a9467-c447-432d-b3f9-cc0b1f504718",
+  "diagramTypeId": "product-context-diagram",
+  "version": 7,
+  "name": "Product Context Diagram Standard",
+  "description": "Rules for creating a Product Context Diagram",
+  "rules": {
+    "allowedShapeIds": [],
+    "mandatoryShapeIds": [],
+    "allowedIconLibraryRefs": [],
+    "colorPalette": [],
+    "elementKinds": [
+      {
+        "id": "new_system",
+        "label": "New System",
+        "shapes": [
+          "rectangle"
+        ],
+        "description": "A system that is being added to the estate",
+        "approvedFills": [
+          "#008000"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "enhanced_system",
+        "label": "Enhanced System",
+        "shapes": [
+          "rectangle"
+        ],
+        "description": "A system that is being enhanced in the estate",
+        "approvedFills": [
+          "#D79B00"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "reused_system",
+        "label": "Reused System",
+        "shapes": [
+          "rectangle"
+        ],
+        "description": "A system that is being reused in the estate",
+        "approvedFills": [
+          "#0000FF"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "retired_system",
+        "label": "Retired System",
+        "shapes": [
+          "rectangle"
+        ],
+        "description": "A system that is being retired in the estate",
+        "approvedFills": [
+          "#CC0000"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "outsourced_system",
+        "label": "Outsourced System",
+        "shapes": [
+          "rectangle"
+        ],
+        "description": "A system that is being outsourced in the estate",
+        "approvedFills": [
+          "#000000"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "new_component",
+        "label": "New Component",
+        "shapes": [
+          "circle"
+        ],
+        "maxCount": 1,
+        "description": "The new component central to the solution",
+        "approvedFills": [
+          "#008800"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "enhanced_component",
+        "label": "Enhanced Component",
+        "shapes": [
+          "circle"
+        ],
+        "maxCount": 1,
+        "description": "The enhanced component central to the solution",
+        "approvedFills": [
+          "#D79B00"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "reused_component",
+        "label": "Reused Component",
+        "shapes": [
+          "circle"
+        ],
+        "maxCount": 1,
+        "description": "The resued component central to the solution",
+        "approvedFills": [
+          "#0000FF"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "retired_component",
+        "label": "Retired Component",
+        "shapes": [
+          "circle"
+        ],
+        "maxCount": 1,
+        "description": "The retired component central to the solution",
+        "approvedFills": [
+          "#CC0000"
+        ],
+        "requireConnection": true
+      },
+      {
+        "id": "outsource_component",
+        "label": "Outsource Component",
+        "shapes": [
+          "circle"
+        ],
+        "maxCount": 1,
+        "description": "The outsourced component central to the solution",
+        "approvedFills": [
+          "#000000"
+        ],
+        "requireConnection": true
+      }
+    ],
+    "requireKnownKinds": true
+  }
+}

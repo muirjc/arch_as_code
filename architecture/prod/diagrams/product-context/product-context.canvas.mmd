@@ -1,0 +1,41 @@
+---
+canvas:
+  positions:
+    nmvqqfsarkiycoh:
+      x: 285
+      y: 15
+    nmvqqftaq6mt4my:
+      x: 285
+      y: 138
+    nmvqqfwlr0gaqrz:
+      x: 568
+      y: 137
+    nmvqqfxt70x51dh:
+      x: 288
+      y: 311
+  containers: {}
+  styles:
+    nmvqqfsarkiycoh:
+      fillColor: "#008000"
+    nmvqqftaq6mt4my:
+      fillColor: "#008800"
+    nmvqqfwlr0gaqrz:
+      fillColor: "#0000FF"
+    nmvqqfxt70x51dh:
+      fillColor: "#D79B00"
+  edgeStyles: {}
+  icons: {}
+  legend:
+    visible: true
+    position:
+      x: 50
+      y: 109
+---
+flowchart TD
+  nmvqqfsarkiycoh[New System]:::new_system
+  nmvqqftaq6mt4my((New Component)):::new_component
+  nmvqqfwlr0gaqrz[Reused System]:::reused_system
+  nmvqqfxt70x51dh[Enhanced System]:::enhanced_system
+  nmvqqfsarkiycoh --> nmvqqftaq6mt4my
+  nmvqqfxt70x51dh --> nmvqqftaq6mt4my
+  nmvqqfwlr0gaqrz --> nmvqqftaq6mt4my
