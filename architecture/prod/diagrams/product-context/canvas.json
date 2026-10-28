@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "generatedBy": "Canvas",
+  "diagramId": "95a2951d-61b5-4556-baa9-497e92654941",
+  "name": "Product Context",
+  "diagramType": "product-context-diagram",
+  "dslFamily": "flowchart",
+  "versionSequence": 4,
+  "source": "product-context.canvas.mmd",
+  "sourceSha256": "91a72e7e6641099a61bf693192ab1fa18c8a59874442091ddf8992e38f60e3c5",
+  "portable": "product-context.mmd",
+  "svg": "product-context.svg",
+  "standard": {
+    "path": ".canvas/standards/product-context-diagram/v7.json",
+    "id": "f02a9467-c447-432d-b3f9-cc0b1f504718",
+    "version": 7,
+    "name": "Product Context Diagram Standard"
+  },
+  "canvasUrl": "https://canvaswebsgsjwpx53dvpy.z19.web.core.windows.net/?diagramId=95a2951d-61b5-4556-baa9-497e92654941"
+}
