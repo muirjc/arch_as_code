@@ -1,0 +1,29 @@
+{
+  "id": "5bbc090d-a251-437c-b555-07dbefaf3149",
+  "diagramTypeId": "flowchart",
+  "version": 1,
+  "name": "Generic Flowchart (starter)",
+  "description": "Every flowchart shape is allowed. Narrow the shapes or add element kinds to standardise.",
+  "rules": {
+    "allowedShapeIds": [
+      "rectangle",
+      "rounded-rectangle",
+      "circle",
+      "diamond",
+      "cylinder",
+      "stadium",
+      "subroutine",
+      "double-circle",
+      "hexagon",
+      "parallelogram",
+      "parallelogram-alt",
+      "trapezoid",
+      "trapezoid-alt",
+      "asymmetric"
+    ],
+    "mandatoryShapeIds": [],
+    "allowedIconLibraryRefs": [],
+    "colorPalette": [],
+    "guidance": "A general-purpose flowchart: steps, decisions and flows. Use diamonds for decisions and label the outgoing branches."
+  }
+}
