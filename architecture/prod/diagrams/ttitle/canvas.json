@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "generatedBy": "Canvas",
+  "diagramId": "823cd1a6-57ce-40b6-95ad-91d98ab3758b",
+  "name": "Ttitle",
+  "diagramType": "flowchart",
+  "dslFamily": "flowchart",
+  "versionSequence": 3,
+  "source": "ttitle.canvas.mmd",
+  "sourceSha256": "3a5ea80cb634d0ffdcb273dd65884cd0adce7362707eb405f4ccf8ea0a09f70b",
+  "portable": "ttitle.mmd",
+  "svg": "ttitle.svg",
+  "standard": {
+    "path": ".canvas/standards/flowchart/v1.json",
+    "id": "5bbc090d-a251-437c-b555-07dbefaf3149",
+    "version": 1,
+    "name": "Generic Flowchart (starter)"
+  },
+  "canvasUrl": "https://canvas-api.ashyplant-d37418e1.centralus.azurecontainerapps.io/?diagramId=823cd1a6-57ce-40b6-95ad-91d98ab3758b"
+}
